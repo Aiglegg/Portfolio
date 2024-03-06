@@ -20,7 +20,7 @@ body{
   justify-content: space-around;
   align-items: end;
   position: relative;
-	width: 195%;
+	width: 100%;
 	overflow-x: hidden;
 	overflow-y: visible;
 }
@@ -134,10 +134,10 @@ img{
 
 .blanc {
   position: relative;
-  margin: 200px 1750px 100px auto;
+  margin: 200px 300px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 2300px;
+  height: 850px;
   width: 800px;
   background-color: #fff;
   opacity: 0.95;
@@ -197,7 +197,7 @@ ul {
 
 .blancfor {
   position: relative;
-  margin: 200px 1750px 100px auto;
+  margin: 200px 300px 0 auto;
   padding: 50px;
   color: #495057;
   height: 1750px;
@@ -217,13 +217,15 @@ ul {
 
 /*Mes expériences*/
 
+.blancexpprincipal {display: flex;}
+
 .blancexp {
   position: relative;
-  margin: 200px 1750px 100px auto;
+  margin: 250px 100px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 2000px;
-  width: 800px;
+  height: 2150px;
+  width: 500px;
   background-color: #fff;
   opacity: 0.95;
   border: 1px solid #ced4da;
@@ -232,19 +234,21 @@ ul {
 }
 
 .blancexp img{
-  width : 20%;
+  width : 30%;
   height : auto;
 }
 
 /*Mes compétences*/
 
+.blanccompprincipal {display: flex;}
+
 .blanccomp {
   position: relative;
-  margin: 200px 1750px 100px auto;
+  margin: 250px 100px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 500px;
-  width: 800px;
+  height: 2150px;
+  width: 500px;
   background-color: #fff;
   opacity: 0.95;
   border: 1px solid #ced4da;
@@ -253,7 +257,7 @@ ul {
 }
 
 .blanccomp img{
-  width : 20%;
+  width : 30%;
   height : auto;
 }
 
@@ -261,7 +265,7 @@ ul {
 
 .blanccv {
   position: relative;
-  margin: 200px 1750px 100px auto;
+  margin: 200px 300px 0 auto;
   padding: 50px;
   color: #495057;
   height: 1150px;
