@@ -1,152 +1,284 @@
 <!DOCTYPE html>
 
 <html>
-    
+  <head>
+    <meta charset="utf-8" />
+    <title>Mes expériences</title>
+    <link rel="stylesheet" href="other.css" />
+  </head>
+
+  <!DOCTYPE html>
+
+  <html>
     <head>
-        <meta charset="utf-8">
-        <title>Mes expériences</title>
-        <link rel="stylesheet" href="other.css">
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width" />
+      <title>Portfolio</title>
+      <link rel="stylesheet" href="other.css" />
     </head>
-    
-    <!doctype html>
 
-    <html>
-    
-      <head>
-    
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="other.css">
-    
-      </head>
-      
-      <body>
-        <div id="all">
-            <div id="allcontent">
-                
-                    <div class="portfolio">
-                        <a href="cv.html">
-                            <img src="cvother.png" alt="Portfolio img"><br>
-                              <span class="txt">Mon CV</span>
-                        </a><div class="ombra"></div>
-                    </div>
-    
-                    <div class="portfolio">
-                        <a href="competences.html">
-                            <img src="competenceother.png" alt="Portfolio img"><br>
-                              <span class="txt">Mes compétences</span>
-                        </a><div class="ombra"></div>
-                    </div>
-    
-                    <div class="portfolio">
-                        <a href="formations.html">
-                            <img src="formationother.png" alt="Portfolio img"><br>
-                              <span class="txt">Mes formations</span>
-                        </a>
-                        <div class="ombra"></div>
-                    </div>
+    <body>
+      <div id="all">
+        <div id="allcontent">
+          <div class="portfolio">
+            <a href="cv.html">
+              <img src="cvother.png" alt="Portfolio img" /><br />
+              <span class="txt">Mon CV</span>
+            </a>
+            <div class="ombra"></div>
+          </div>
 
-                    <div class="portfolio">
-                        <a href="presentation.html">
-                            <img src="presentation.jpg" alt="Portfolio img"><br>
-                              <span class="txt">A propos de moi</span>
-                        </a><div class="ombra"></div>
-                    </div>
-    
-                    <div class="portfolio">
-                        <a href="index.html">
-                            <img src="accueilother.png" alt="Portfolio img"><br>
-                              <span class="txt">Accueil</span>
-                        </a>
-                        <div class="ombra"></div>
-                    </div>
-    
-            </div>
-            
-            <script src="accueil.js"></script>
+          <div class="portfolio">
+            <a href="competences.html">
+              <img src="competenceother.png" alt="Portfolio img" /><br />
+              <span class="txt">Mes compétences</span>
+            </a>
+            <div class="ombra"></div>
+          </div>
 
-            <div class="blancexpprincipal">
-            
-            <div class="blancexp">
+          <div class="portfolio">
+            <a href="formations.html">
+              <img src="formationother.png" alt="Portfolio img" /><br />
+              <span class="txt">Mes formations</span>
+            </a>
+            <div class="ombra"></div>
+          </div>
 
-                <h1>Mes expérences professionnelles</h1>
-                <br>
+          <div class="portfolio">
+            <a href="presentation.html">
+              <img src="presentation.jpg" alt="Portfolio img" /><br />
+              <span class="txt">A propos de moi</span>
+            </a>
+            <div class="ombra"></div>
+          </div>
 
-                <ul><h2>CDD Restaurant L'Audacieuse</h2></ul>
-                <img src="data:image/png;base64,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">
-
-                <p>Serveur à hauteur de 25 couverts par service et formateur de jeunes serveuses.<br>Cette expérience m'a permis de consolider un éventail de compétences :
-                    
-                    <ul>✅Leadership et motivation</ul>
-                    <ul>✅Compétences pédagogiques</ul>
-                    <ul>✅Travail d'équipe</ul>
-                    <ul>✅Communication efficace</ul>
-                    <ul>✅Adaptabilité</ul>
-                    
-                    <br>Ces multiples compétences font sens en raison des responsabilités managériales auxquelles j'aspire comme futur ingénieur. Elles sont déjà un atout précieux dans différents projets d'école.
-                    
-                    <br>
-                    <br>
-                    Découverte de l'hôtellerie-restauration me permettant d'être un acteur clé dans la compétitivité de l'entreprise. Ma mission comprenait l'accueil de la clientèle et un service de qualité en salle, tous deux favorables à un temps familial et convivial. En parallèle, j'avais en charge la préparation et la remise en état de chambres d'hôtes.<br>Au cours de cette expérience, j'ai développé les compétences suivantes : 
-                    <ul>✅Savoir et savoir faire métier</ul>
-                    <ul>✅Savoir être, accueil et service de la clientèle</ul>
-                    <ul>✅Gestion du temps</ul>
-                    <ul>✅Souci du détail</ul>
-                </p>
-                <br>
-                <ul><h2>CDD André Briant Jeunes Plants</h2></ul>
-                <img src="https://globeplanter.com/illustration/producteur/large/logoabpj.jpg">
-
-                <p>Réalisation de l'écussonnage, une étape essentielle pour le succès de la saison dans l'une des exploitations d'une des plus grandes pépinières européennes. Ma tâche consistait à greffer une variété de plante sur une autre sous forme d'écusson, préservant ainsi les caractéristiques spécifiques de la plante source.<br>L'expérience vécue durant ce CDD m'a permis de me confronter à/au:
-                    <ul>✅Exigence du travail bien fait</ul>
-                    <ul>✅Respect de l'environnement</ul>
-                    <ul>✅Patience</ul>
-                    <ul>✅Endurance physique</ul>
-
-                    <br>C'est avec une volonté affichée que j'ai voulu effectuer ce travail agricole, pratique voire rustique, tandis que je déroule mon parcours universitaire en vue d'être ingénieur.
-                </p>
-                <br>
-                <ul><h2>Stage Ministère des Armées</h2></ul> <img src="https://pic.digital/wp-content/uploads/2022/09/armees.png">
-
-                <p>Compréhension du volet technique ainsi que de l’approche psychologique des cyberattaquants utilisant l’ingénierie sociale. Ma mission consistait à actualiser la connaissance de l'équipe à laquelle j'étais rattachée sur les modes opératoires de cyberattaques par phishing.<br>J'ai pu y développer les connaissances suivantes :
-                    <ul>✅Sensibilisation à la cybersécurité</ul>
-                    <ul>✅Analyse des menaces, vulnérabilités et risques</ul>
-                    <ul>✅Veille technologique</ul>
-                    <ul>✅Psychologie de l'attaquant et objectif d'attaque</ul>
-                </p>
-            </div>
-
-            <div class="blancexp">
-
-                <h1>Mes engagements bénévoles</h1>
-
-                <br>
-    
-                <ul><h2>Co-créateur d'un groupe de jeunes ayant pour visée d'aider les villages à la reconstitution de leur patrimoine</h2></ul>
-                <img src="https://www.sanctuaire-behuard.com/wp-content/uploads/2022/01/cropped-logo-sanctuaire-behuard.jpg">
-    
-                <p>Béhuard, un village pittoresque bien connu pour son église romane du XIe siècle, sa production de vin et son pèlerinage annuel en l'honneur de la Vierge Marie qui attire des visiteurs du monde entier. Classé parmi les "Plus Beaux Villages de France", Béhuard est entouré de magnifiques paysages verdoyants, ce qui en fait un lieu de choix pour les amateurs d'histoire, de patrimoine et de nature. Étant un lieu très prisé des touristes pendant la saison estivale, le village nous a sollicité pour aider à embellir les espaces publics avec les moyens dont nous disposions.</p>
-                <p>Dans cet objectif, nous avons effectué diverses tâches telles que la restauration des bâtiments, le nettoyage des espaces extérieurs et l'organisation d'activités pour les habitants et les visiteurs. L'objectif principal est de créer un environnement attrayant et accueillant pour les résidents et les touristes, tout en encourageant la participation communautaire et en préservant l'histoire et la culture locales.</p>
-    
-                <br>
-    
-                <ul><h2>Animateur et responsable d'un service dans des camps de jeunes</h2></ul>
-                <img src="https://reparemoneglise.com/wp-content/uploads/2022/07/pp.jpg">
-    
-                <p>Le but de mon engagement bénévole avec l'association "Répare mon Église" est d'encadrer des camps pour les jeunes âgés de 9 à 17 ans, en leur offrant des vacances agréables tout en leur enseignant des sujets variés sur la vie et le monde. En tant qu'animateur, mon rôle est de créer un environnement chaleureux, de renforcer le groupe et de guider les jeunes pendant cette période critique de leur vie. Je m'efforce de maintenir une ambiance positive et d'assurer la sécurité et le bien-être de tous les participants. En plus de mes responsabilités d'animation, je suis également chargé de coordonner le "fil rouge", des pièces de théâtre quotidiennes liées au thème du camp, ce qui demande créativité et leadership. Mon engagement exigeant me permet de développer mes compétences d'animateur et de contribuer au bon déroulement des camps, tout en offrant aux jeunes des moments mémorables et enrichissants.</p>
-    
-                <br>
-    
-                <ul><h2>Chef scout</h2></ul>
-                <img src="https://www.sarthecatholique.fr/wp-content/uploads/2019/07/Logo-guide-et-scouts-d-Europe.jpg">
-    
-                <p>En tant que chef scout, je dois encadrer et guider les jeunes de mon groupe dans leur développement personnel et leur formation civique. Mon rôle consiste à créer un environnement sûr, stimulant et amusant pour ces adolescents de 12 à 17 ans, tout en leur enseignant des compétences pratiques, des valeurs morales et des principes de vie. En tant que chef, je suis responsable de planifier et de superviser diverses activités, telles que des sorties en plein air, des jeux de groupe, des projets de service communautaire et des formations. Je m'efforce également d'être un modèle positif pour les jeunes en démontrant des qualités de leadership, de responsabilité et de respect. Mon engagement dans le scoutisme me permet de contribuer à l'éducation et à l'épanouissement des jeunes, tout en développant mes propres compétences en leadership, en gestion de groupe et en résolution de problèmes.</p>
-            </div>
-
-
-            </div>
+          <div class="portfolio">
+            <a href="index.html">
+              <img src="accueilother.png" alt="Portfolio img" /><br />
+              <span class="txt">Accueil</span>
+            </a>
+            <div class="ombra"></div>
+          </div>
         </div>
-    </body>
 
+        <script src="accueil.js"></script>
+
+        <div class="blancexpprincipal">
+          <div class="blancexp">
+            <h1>Mes expérences professionnelles</h1>
+            <br />
+            <ul>
+              <h2>CDD Restaurant L'Audacieuse</h2>
+            </ul>
+            <img
+              src="data:image/png;base64,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"
+            />
+
+            <p>
+              Serveur à hauteur de 25 couverts par service et formateur de
+              jeunes serveuses. <br />Cette expérience m'a permis de consolider
+              un éventail de compétences :
+            </p>
+            <ul>
+              ✅Leadership et motivation
+            </ul>
+            <ul>
+              ✅Compétences pédagogiques
+            </ul>
+            <ul>
+              ✅Travail d'équipe
+            </ul>
+            <ul>
+              ✅Communication efficace
+            </ul>
+            <ul>
+              ✅Adaptabilité
+            </ul>
+            <br />
+            <p>
+              Ces multiples compétences font sens en raison des responsabilités
+              managériales auxquelles j'aspire comme futur ingénieur. Elles sont
+              déjà un atout précieux dans différents projets d'école.
+              <br />
+              <br />
+              Découverte de l'hôtellerie-restauration me permettant d'être un
+              acteur clé dans la compétitivité de l'entreprise. Ma mission
+              comprenait l'accueil de la clientèle et un service de qualité en
+              salle, tous deux favorables à un temps familial et convivial. En
+              parallèle, j'avais en charge la préparation et la remise en état
+              de chambres d'hôtes. Au cours de cette expérience, j'ai développé
+              les compétences suivantes :
+            </p>
+            <ul>
+              ✅Savoir et savoir faire métier
+            </ul>
+            <ul>
+              ✅Savoir être, accueil et service de la clientèle
+            </ul>
+            <ul>
+              ✅Gestion du temps
+            </ul>
+            <ul>
+              ✅Souci du détail
+            </ul>
+            <br />
+            <ul>
+              <h2>CDD André Briant Jeunes Plants</h2>
+            </ul>
+            <img
+              src="https://globeplanter.com/illustration/producteur/large/logoabpj.jpg"
+            />
+
+            <p>
+              Réalisation de l'écussonnage, une étape essentielle pour le succès
+              de la saison dans l'une des exploitations d'une des plus grandes
+              pépinières européennes. Ma tâche consistait à greffer une variété
+              de plante sur une autre sous forme d'écusson, préservant ainsi les
+              caractéristiques spécifiques de la plante source.
+              <br />L'expérience vécue durant ce CDD m'a permis de me confronter
+              à/au:
+            </p>
+            <ul>
+              ✅Exigence du travail bien fait
+            </ul>
+            <ul>
+              ✅Respect de l'environnement
+            </ul>
+            <ul>
+              ✅Patience
+            </ul>
+            <ul>
+              ✅Endurance physique
+            </ul>
+            <p>
+              C'est avec une volonté affichée que j'ai voulu effectuer ce
+              travail agricole, pratique voire rustique, tandis que je déroule
+              mon parcours universitaire en vue d'être ingénieur.
+            </p>
+            <br />
+            <ul>
+              <h2>Stage Ministère des Armées</h2>
+            </ul>
+            <img
+              src="https://pic.digital/wp-content/uploads/2022/09/armees.png"
+            />
+
+            <p>
+              Compréhension du volet technique ainsi que de l’approche
+              psychologique des cyberattaquants utilisant l’ingénierie sociale.
+              Ma mission consistait à actualiser la connaissance de l'équipe à
+              laquelle j'étais rattachée sur les modes opératoires de
+              cyberattaques par phishing. <br />J'ai pu y développer les
+              connaissances suivantes :
+            </p>
+            <ul>
+              ✅Sensibilisation à la cybersécurité
+            </ul>
+            <ul>
+              ✅Analyse des menaces, vulnérabilités et risques
+            </ul>
+            <ul>
+              ✅Veille technologique
+            </ul>
+            <ul>
+              ✅Psychologie de l'attaquant et objectif d'attaque
+            </ul>
+          </div>
+
+          <div class="blancexp">
+            <h1>Mes engagements bénévoles</h1>
+
+            <br />
+
+            <ul>
+              <h2>
+                Co-créateur d'un groupe de jeunes ayant pour visée d'aider les
+                villages à la reconstitution de leur patrimoine
+              </h2>
+            </ul>
+            <img
+              src="https://www.sanctuaire-behuard.com/wp-content/uploads/2022/01/cropped-logo-sanctuaire-behuard.jpg"
+            />
+
+            <p>
+              Béhuard, un village pittoresque bien connu pour son église romane
+              du XIe siècle, sa production de vin et son pèlerinage annuel en
+              l'honneur de la Vierge Marie qui attire des visiteurs du monde
+              entier. Classé parmi les "Plus Beaux Villages de France", Béhuard
+              est entouré de magnifiques paysages verdoyants, ce qui en fait un
+              lieu de choix pour les amateurs d'histoire, de patrimoine et de
+              nature. Étant un lieu très prisé des touristes pendant la saison
+              estivale, le village nous a sollicité pour aider à embellir les
+              espaces publics avec les moyens dont nous disposions.
+            </p>
+            <p>
+              Dans cet objectif, nous avons effectué diverses tâches telles que
+              la restauration des bâtiments, le nettoyage des espaces extérieurs
+              et l'organisation d'activités pour les habitants et les visiteurs.
+              L'objectif principal est de créer un environnement attrayant et
+              accueillant pour les résidents et les touristes, tout en
+              encourageant la participation communautaire et en préservant
+              l'histoire et la culture locales.
+            </p>
+
+            <br />
+
+            <ul>
+              <h2>
+                Animateur et responsable d'un service dans des camps de jeunes
+              </h2>
+            </ul>
+            <img
+              src="https://reparemoneglise.com/wp-content/uploads/2022/07/pp.jpg"
+            />
+
+            <p>
+              Le but de mon engagement bénévole avec l'association "Répare mon
+              Église" est d'encadrer des camps pour les jeunes âgés de 9 à 17
+              ans, en leur offrant des vacances agréables tout en leur
+              enseignant des sujets variés sur la vie et le monde. En tant
+              qu'animateur, mon rôle est de créer un environnement chaleureux,
+              de renforcer le groupe et de guider les jeunes pendant cette
+              période critique de leur vie. Je m'efforce de maintenir une
+              ambiance positive et d'assurer la sécurité et le bien-être de tous
+              les participants. En plus de mes responsabilités d'animation, je
+              suis également chargé de coordonner le "fil rouge", des pièces de
+              théâtre quotidiennes liées au thème du camp, ce qui demande
+              créativité et leadership. Mon engagement exigeant me permet de
+              développer mes compétences d'animateur et de contribuer au bon
+              déroulement des camps, tout en offrant aux jeunes des moments
+              mémorables et enrichissants.
+            </p>
+
+            <br />
+
+            <ul>
+              <h2>Chef scout</h2>
+            </ul>
+            <img
+              src="https://www.sarthecatholique.fr/wp-content/uploads/2019/07/Logo-guide-et-scouts-d-Europe.jpg"
+            />
+
+            <p>
+              En tant que chef scout, je dois encadrer et guider les jeunes de
+              mon groupe dans leur développement personnel et leur formation
+              civique. Mon rôle consiste à créer un environnement sûr, stimulant
+              et amusant pour ces adolescents de 12 à 17 ans, tout en leur
+              enseignant des compétences pratiques, des valeurs morales et des
+              principes de vie. En tant que chef, je suis responsable de
+              planifier et de superviser diverses activités, telles que des
+              sorties en plein air, des jeux de groupe, des projets de service
+              communautaire et des formations. Je m'efforce également d'être un
+              modèle positif pour les jeunes en démontrant des qualités de
+              leadership, de responsabilité et de respect. Mon engagement dans
+              le scoutisme me permet de contribuer à l'éducation et à
+              l'épanouissement des jeunes, tout en développant mes propres
+              compétences en leadership, en gestion de groupe et en résolution
+              de problèmes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
 </html>
