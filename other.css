@@ -164,6 +164,11 @@ h1 {
   font-weight: lighter;
 }
 
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 p {
   font-size: 16px;
   font-weight: lighter;
@@ -188,7 +193,7 @@ ul {
   ul {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
     line-height: 70px;
   }
 }
@@ -251,8 +256,8 @@ ul {
   margin: 250px 100px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 1500px;
-  width: 500px;
+  height: 750px;
+  width: 250px;
   background-color: #fff;
   opacity: 0.95;
   border: 1px solid #ced4da;
@@ -260,9 +265,39 @@ ul {
   text-align: center;
 }
 
-.blanccomp img {
-  width: 30%;
+.blanccon {
+  position: absolute;
+  top: 1200px;
+  left: 150px;
+  width: 1250px;
+  height: 550px;
+  background-color: #fff;
+  opacity: 0.95;
+  border: 1px solid #ced4da;
+  border-radius: 0.4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blanccon h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #495057;
+}
+
+.blancconimages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blanccon img {
+  width: 10%;
   height: auto;
+  margin: 50px;
 }
 
 /*Mon CV*/
