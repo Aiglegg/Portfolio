@@ -256,7 +256,7 @@ ul {
   margin: 250px 100px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 750px;
+  height: 650px;
   width: 250px;
   background-color: #fff;
   opacity: 0.95;
@@ -265,37 +265,45 @@ ul {
   text-align: center;
 }
 
-.blanccon {
-  position: absolute;
-  top: 1200px;
-  left: 150px;
-  width: 1250px;
-  height: 550px;
+.blanccomp#other {
+  position: relative;
+  margin: 250px 100px 0 auto;
+  padding: 50px;
+  color: #495057;
+  height: 850px;
+  width: 255px;
   background-color: #fff;
   opacity: 0.95;
   border: 1px solid #ced4da;
   border-radius: 0.4rem;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.blanccon h2 {
-  font-size: 20px;
-  font-weight: lighter;
+.blanccomp#other2 {
+  display: flex; /* Utilise un affichage flex pour les images */
+  flex-wrap: wrap; /* Permet aux images de revenir à la ligne si l'espace est insuffisant */
+  justify-content: center; /* Centre les images horizontalement */
+  align-items: center; /* Centre les images verticalement */
+  position: relative;
+  margin: 250px 100px 0 auto;
+  padding: 50px;
   color: #495057;
+  height: 650px;
+  background-color: #fff;
+  opacity: 0.95;
+  border: 1px solid #ced4da;
+  border-radius: 0.4rem;
+  text-align: center;
 }
 
-.blancconimages {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+.blanccomp#other2 img {
+  width: 40%; /* Ajuste la largeur de chaque image */
+  height: auto;
+  margin: 10px; /* Réduit la marge entre les images */
 }
 
-.blanccon img {
-  width: 10%;
+.blanccomp img {
+  width: 20%;
   height: auto;
   margin: 50px;
 }
