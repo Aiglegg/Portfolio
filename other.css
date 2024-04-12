@@ -134,12 +134,13 @@ img {
 /*Presentation*/
 
 .blanc {
+  justify-content: center;
   position: relative;
-  margin: 200px 300px 0 auto;
+  margin: 200px auto 0 auto;
   padding: 50px;
   color: #495057;
-  height: 850px;
-  width: 800px;
+  height: 550px;
+  width: 1300px;
   background-color: #fff;
   opacity: 0.95;
   border: 1px solid #ced4da;
@@ -147,36 +148,8 @@ img {
   text-align: center;
 }
 
-.blanc img {
-  width: 20%;
-  height: auto;
-}
-
-.avatar {
-  border-color: white;
-  border-width: 1px;
-  border-radius: 50%;
-  width: 100px;
-}
-
-h1 {
-  font-size: 24px;
-  font-weight: lighter;
-}
-
-h2 {
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-p {
-  font-size: 16px;
-  font-weight: lighter;
-}
-
-ul {
-  text-align: left;
-  font-size: 16px;
+.cartementale {
+  width: 100%;
 }
 
 @media (max-width: 880px) {
