@@ -47,6 +47,10 @@ img {
   width: 100%;
 }
 
+ul {
+  text-align: left;
+}
+
 .portfolio {
   position: absolute;
   transition: 0.2s;
@@ -173,13 +177,17 @@ img {
 
 /*Mes formations*/
 
+.blancforprincipal {
+  display: flex;
+}
+
 .blancfor {
   position: relative;
-  margin: 200px 300px 0 auto;
+  margin: 250px 100px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 1650px;
-  width: 800px;
+  height: 850px;
+  width: 500px;
   background-color: #fff;
   opacity: 0.95;
   border: 1px solid #ced4da;
@@ -190,7 +198,11 @@ img {
 .blancfor img {
   width: 30%;
   height: auto;
-  display: center;
+}
+
+.blancfor#ostrava img {
+  width: 70%;
+  height: auto;
 }
 
 /*Mes expériences*/
@@ -204,7 +216,7 @@ img {
   margin: 250px 100px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 2050px;
+  height: 2100px;
   width: 500px;
   background-color: #fff;
   opacity: 0.95;
@@ -236,10 +248,6 @@ img {
   border: 1px solid #ced4da;
   border-radius: 0.4rem;
   text-align: center;
-}
-
-.blanccomp ul {
-  text-align: left;
 }
 
 .blanccomp#other {
