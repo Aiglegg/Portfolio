@@ -229,7 +229,7 @@ img {
   margin: 250px 100px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 650px;
+  height: 775px;
   width: 250px;
   background-color: #fff;
   opacity: 0.95;
@@ -238,12 +238,16 @@ img {
   text-align: center;
 }
 
+.blanccomp ul {
+  text-align: left;
+}
+
 .blanccomp#other {
   position: relative;
   margin: 250px 100px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 850px;
+  height: 900px;
   width: 255px;
   background-color: #fff;
   opacity: 0.95;
@@ -252,16 +256,20 @@ img {
   text-align: center;
 }
 
+.blanccomp#other ul {
+  text-align: left;
+}
+
 .blanccomp#other2 {
-  display: flex; /* Utilise un affichage flex pour les images */
-  flex-wrap: wrap; /* Permet aux images de revenir à la ligne si l'espace est insuffisant */
-  justify-content: center; /* Centre les images horizontalement */
-  align-items: center; /* Centre les images verticalement */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   position: relative;
   margin: 250px 100px 0 auto;
   padding: 50px;
   color: #495057;
-  height: 650px;
+  height: 700px;
   background-color: #fff;
   opacity: 0.95;
   border: 1px solid #ced4da;
@@ -270,9 +278,9 @@ img {
 }
 
 .blanccomp#other2 img {
-  width: 40%; /* Ajuste la largeur de chaque image */
+  width: 40%;
   height: auto;
-  margin: 10px; /* Réduit la marge entre les images */
+  margin: 10px;
 }
 
 .blanccomp img {
