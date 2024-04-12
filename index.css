@@ -1,128 +1,128 @@
 html,
-body{
-	width:100%;
-	height:100%;
-	margin:0;
-	padding:0;
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-#all{
-	width:100%;
-	height:100%;
-	overflow-x:hidden;
-	overflow-y: visible;
-    position:relative;
+#all {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  position: relative;
 }
 
-body{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size:12pt;
-	color:#352e2a;
-	background: url('http://www.claudiogomboli.com/lab/gallery/imgs/background.jpg');
-    background-size: cover;
-    background-position: center center;
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  color: #352e2a;
+  background: url("http://www.claudiogomboli.com/lab/gallery/imgs/background.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
-a:link, a:visited {
-	color: #333;
-	border-bottom:1px solid #333;
-	transition: .3s;
-	text-decoration:none;
+a:link,
+a:visited {
+  color: #333;
+  border-bottom: 1px solid #333;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
-img{
-    width:100%;
+img {
+  width: 100%;
 }
 
-#allcontent{
-	margin:60px auto 0 auto;
-    width:100%;
-    max-width:1140px;
-    height:700px;
-    position:relative;
-	animation: comein 1.5s ease-in-out;
+#allcontent {
+  margin: 60px auto 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  height: 700px;
+  position: relative;
+  animation: comein 1.5s ease-in-out;
 }
 
-.portfolio{
-    width:100%;
-    max-width:1000px;
-    position:absolute;
-    right:0;
-    top:0;
-    transition: .2s;
-    cursor:pointer;
-	box-shadow:-2px 0 3px rgba(0,0,0,0.3);
+.portfolio {
+  width: 100%;
+  max-width: 1000px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.2s;
+  cursor: pointer;
+  box-shadow: -2px 0 3px rgba(0, 0, 0, 0.3);
 }
-
 
 .portfolio:nth-child(1) {
-	left: 10px;
+  left: 10px;
 }
 .portfolio:nth-child(1):hover {
-	-webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-	left: 0;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  left: 0;
 }
 
 .portfolio:nth-child(2) {
-	left: 10%;
+  left: 10%;
 }
 .portfolio:nth-child(2):hover {
-	-webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-	left: 5%;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  left: 5%;
 }
 
 .portfolio:nth-child(3) {
-	left: 20%;
+  left: 20%;
 }
 .portfolio:nth-child(3):hover {
-	-webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-	left: 15%;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  left: 15%;
 }
 
 .portfolio:nth-child(4) {
-	left: 30%;
+  left: 30%;
 }
 .portfolio:nth-child(4):hover {
-	-webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-	left: 25%;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  left: 25%;
 }
 
 .portfolio:nth-child(5) {
-	left: 40%;
+  left: 40%;
 }
 .portfolio:nth-child(5):hover {
-	-webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-	left: 35%;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  left: 35%;
 }
 
-.ombra{
-	position:absolute;
-    bottom:20px;
-    left:10px;
-    width:90%;
-	height:20px;
-	box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
-	transform:rotate(-2deg);
-	display:none;
-	z-index:-1;
+.ombra {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  width: 90%;
+  height: 20px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  transform: rotate(-2deg);
+  display: none;
+  z-index: -1;
 }
 
-.txt{
-    display:block;
-	margin:-2px 0 0 0;
-	padding-top:20px;
-	width:98%;
-	padding-left:2%;
-	height:33px;
-	background: #f7f7f7;
+.txt {
+  display: block;
+  margin: -2px 0 0 0;
+  padding-top: 20px;
+  width: 98%;
+  padding-left: 2%;
+  height: 33px;
+  background: #f7f7f7;
 }
